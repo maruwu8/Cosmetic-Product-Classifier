@@ -1,6 +1,6 @@
 # Cosmetic Product Classifier
 
-![App Screenshot](screenshot.png)
+![App Screenshot1](https://github.com/maruwu8/Cosmetic-Product-Classifier/blob/main/images/app1.png)
 
 ## Overview
 
