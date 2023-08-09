@@ -1,4 +1,4 @@
-# Cosmetic Product Classifier
+# Cosmetic Product Classifier🪞
 
 ![App Screenshot1](images/app1.png)
 
@@ -43,14 +43,13 @@ The development of the Cosmetic Product Classifier App relied on a comprehensive
 - **JSON and HDF5 Formats:** Employed to serialize and store the trained model's architecture and weights. 💾
 - **Streamlit:** Utilized to build the interactive user interface of the app. Streamlit facilitated the creation of a user-friendly web application. 🚀
 
-## Data Collection [Data Processing](products_clean_analysis.ipynb#data-processing)
-
+## Data Collection 
 
 The data for this project was obtained through web scraping cosmetic product information from the Notino website using Selenium and BeautifulSoup technologies. The selected categories for data collection are as follows: Concealer, Eaux de Parfum, Eyeliner, Eyeshadow, Face Powder, Foundation, Hairspray, Lip Gloss, Lipstick, Mascara, Nail Varnish, Shampoo. All were taken from the link: [https://www.notino.co.uk/](https://www.notino.co.uk/).
 
 The collected data includes various attributes of cosmetic products, and the columns in the dataset are as follows: Brand, Product Name, Product URL, Image URL, Description, Price, Category. Selenium was employed to automate the browsing of web pages and perform interactions, while BeautifulSoup facilitated the parsing and extraction of relevant data from the HTML content. The scraped data provides a diverse and representative sample of cosmetic products across these categories.
 
-## Data Processing
+## [Data Processing](products_clean_analysis.ipynb#data-processing)
 
 After scraping the data, a series of data processing steps were performed to prepare the collected dataset for model training. The processing steps were carried out using Python and the Pandas library. Here is an overview of the data processing process:
 
@@ -68,9 +67,10 @@ After scraping the data, a series of data processing steps were performed to pre
 
 7. **Price Analysis:** The "Price" column was converted to numeric values, and an analysis of product prices was conducted.
 
-8. **Saving Cleaned Data:** The processed and cleaned dataset was saved as "products_clean.csv" using the `to_csv()` function, making it ready for model training and further analysis.
+8. **Saving Cleaned Data:** The processed and cleaned dataset was saved as [products_clean.csv](products_clean.csv)
+ using the `to_csv()` function, making it ready for model training and further analysis.
 
-## Model Training
+## [Model Training](classifier_model.ipynb)
 
 The trained model plays a pivotal role in the Cosmetic Product Classifier App, enabling accurate categorization of cosmetic items. The model was trained using a combination of pre-processed product images and their corresponding category labels. The following steps outline the process of training the model:
 
@@ -92,7 +92,7 @@ The trained model plays a pivotal role in the Cosmetic Product Classifier App, e
 
 9. **Classification Report:** A comprehensive classification report was printed, providing insights into precision, recall, F1-score, and support for each category.
 
-10. **Model Export:** The trained model's architecture was serialized and saved to a JSON file (`classifier_model_architecture.json`). The model's weights were saved to an `.h5` file (`classifier_model_weights.h5`) for later use.
+10. **Model Export:** The trained model's architecture was serialized and saved to a JSON file (`classifier_model_architecture.json`). The model's weights were saved to an `.h5` file (`classifier_model_weights.h5`) for later use. --- files are too large to be added in the repo
 
 11. **Model Saving:** The entire model, including architecture and weights, was saved to a single `.h5` file (`classifier_model.h5`), which could be easily loaded for future predictions.
 
