@@ -43,7 +43,8 @@ The development of the Cosmetic Product Classifier App relied on a comprehensive
 - **JSON and HDF5 Formats:** Employed to serialize and store the trained model's architecture and weights. 💾
 - **Streamlit:** Utilized to build the interactive user interface of the app. Streamlit facilitated the creation of a user-friendly web application. 🚀
 
-## Data Collection
+## Data Collection [Data Processing](products_clean_analysis.ipynb#data-processing)
+
 
 The data for this project was obtained through web scraping cosmetic product information from the Notino website using Selenium and BeautifulSoup technologies. The selected categories for data collection are as follows: Concealer, Eaux de Parfum, Eyeliner, Eyeshadow, Face Powder, Foundation, Hairspray, Lip Gloss, Lipstick, Mascara, Nail Varnish, Shampoo. All were taken from the link: [https://www.notino.co.uk/](https://www.notino.co.uk/).
 
