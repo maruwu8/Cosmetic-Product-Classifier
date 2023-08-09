@@ -1,4 +1,4 @@
-# Cosmetic Product Classifier🪞
+# Cosmetic Product Classifier 💅
 
 ![App Screenshot1](images/app1.png)
 
