@@ -1,6 +1,6 @@
 # Cosmetic Product Classifier
 
-![App Screenshot1](https://github.com/maruwu8/Cosmetic-Product-Classifier/blob/main/images/app1.png)
+![App Screenshot1](images/app1.png)
 
 ## Overview
 
@@ -98,6 +98,8 @@ The trained model plays a pivotal role in the Cosmetic Product Classifier App, e
 ## Streamlit App
 
 The Streamlit app allows users to upload an image of a cosmetic product and receive predictions about its category. The app is user-friendly and intuitive, providing users with instant insights into the products they're curious about. 🌐
+
+![App Screenshot2](images/app2.png)
 
 ## Results and Insights
 
