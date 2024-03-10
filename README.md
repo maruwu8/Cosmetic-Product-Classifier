@@ -27,7 +27,7 @@ Ever found yourself bewildered by the array of cosmetic products your significan
 
 To get started with the project, follow these steps:
 
-1. Clone this repository: `git clone https://github.com/your-username/cosmetic-product-classifier.git`
+1. Clone this repository: `git clone https://github.com/maruwu8/cosmetic-product-classifier.git`
 2. Install the required dependencies: `pip install -r requirements.txt`
 3. Run the Streamlit app: `streamlit run app_upload.py`
 
