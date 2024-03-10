@@ -49,7 +49,7 @@ The data for this project was obtained through web scraping cosmetic product inf
 
 The collected data includes various attributes of cosmetic products, and the columns in the dataset are as follows: Brand, Product Name, Product URL, Image URL, Description, Price, Category. Selenium was employed to automate the browsing of web pages and perform interactions, while BeautifulSoup facilitated the parsing and extraction of relevant data from the HTML content. The scraped data provides a diverse and representative sample of cosmetic products across these categories.
 
-## [Data Processing](products_clean_analysis.ipynb#data-processing)
+## [Data Processing and Visualisation](products_clean_analysis.ipynb#data-processing)
 
 After scraping the data, a series of data processing steps were performed to prepare the collected dataset for model training. The processing steps were carried out using Python and the Pandas library. Here is an overview of the data processing process:
 
